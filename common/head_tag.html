@@ -1,0 +1,6 @@
+<script type="text/discourse-plugin" version="0.8">
+    const { setDefaultHomepage } = require('discourse/lib/utilities');
+    if (settings.home_url_override) {
+      setDefaultHomepage(settings.home_url_override);
+    }
+</script>

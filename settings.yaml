@@ -1,0 +1,4 @@
+home_url_override:
+  description: "Set home page to this URL"
+  default: ""
+  type: string
